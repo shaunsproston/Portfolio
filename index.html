@@ -17,6 +17,21 @@
             <span>&lt</span><button><a href="pdf/Shaun Sproston CV 2019.pdf" target="_blank">Download CV</a></button><span class="right-span">/&gt</span>
         </nav>
 
+        <!----- MOBILE MENU ------>
+
+        <div class="mobile-menu-hidden">
+            <span>menu</span><i class="fas fa-bars"></i>
+        </div>
+
+        <div class="mobile-menu-show">
+            <span>menu</span><i class="fas fa-times"></i><br>
+            <span>&lt</span><button><a href="#home">Home</a></button><span class="right-span">/&gt</span><br>
+            <span>&lt</span><button><a href="#about-me">About Me</a></button><span class="right-span">/&gt</span><br>
+            <span>&lt</span><button><a href="#projects">Projects</a></button><span class="right-span">/&gt</span><br>
+            <span>&lt</span><button><a href="#contact">Contact</a></button><span class="right-span">/&gt</span><br>
+            <span>&lt</span><button><a href="pdf/Shaun Sproston CV 2019.pdf" target="_blank">Download CV</a></button><span class="right-span">/&gt</span><br>
+        </div>
+
         <!--------- HOME --------->
 
         <div id="home" class="img1">
@@ -24,6 +39,14 @@
                 <span class="border">
                     <span class="main-header">&lt { shaun sproston }<span class="main-jobtitle"> Web Developer </span> /&gt</span>
                 </span>
+
+                <!--
+                <span class="border-mobile">
+                    <span class="main-header-mobile">{ shaun sproston } </span>
+                    <span class="main-jobtitle-mobile">&lt Web Developer /&gt</span>
+                </span>
+                -->
+
                 <br>
                 <br>
                 <div class="sticky-bar">
@@ -186,8 +209,7 @@
             </form>
             <p>Shaun Sproston &copy 2019</p>
         </section>
-        <?php
-            echo "Hello World!";
-        ?> 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
     </body>
 </html>

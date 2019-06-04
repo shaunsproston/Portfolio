@@ -91,6 +91,10 @@ a:hover {
     color: orange;
 }
 
+.mobile-menu-hidden, .mobile-menu-show{
+    display: none;
+}
+
 
 /****** Background Images ******/
 
@@ -171,15 +175,15 @@ a:hover {
 }
 
 .header-style1 {
-    top: 30%;
+    top: 250px;
 }
 
 .header-style2 {
-    top: 82%;
+    top: 1000px;
 }
 
 .header-style3 {
-    top: 90%;
+    top: 1200px;
 }
 
 .border {
@@ -405,4 +409,151 @@ a:hover {
     .img3 {
         height: 1900px;
     }
+    .header-style3{
+        top: 1725px;
+    }
+}
+
+
+/***************** SCREEN SIZE BREAKPOINT 1100px WIDTH ***********************/
+
+@media only screen and (max-width: 1200px){
+    nav button, nav span{
+        font-size: 14px;
+    }
+    nav .right-span {
+        margin-right: 80px;
+    }
+
+    .main-header {
+        font-size: 37px;
+    }
+    .main-jobtitle {
+        font-size: 18px;
+    }
+    .border {
+        padding: 30px 10px 20px 10px;
+    }
+    .projects-header{
+        font-size: 37px;
+    }
+    .header-style2{
+        top: 1050px;
+    }
+    
+}
+
+/***************** SCREEN SIZE BREAKPOINT 1040px WIDTH ***********************/
+
+@media only screen and (max-width: 1040px){
+    .about-me-content p {
+        font-size: 14px;
+    }
+}
+
+/***************** SCREEN SIZE BREAKPOINT 950px WIDTH ***********************/
+
+@media only screen and (max-width: 950px){
+    nav button, nav span{
+        font-size: 14px;
+    }
+    nav .right-span {
+        margin-right: 30px;
+    }
+    .img3 {
+        height: 3200px;
+    }
+    .header-style3{
+        top: 3080px;
+    }
+    .about-me-pic-container{
+        display: none;
+    }
+    .about-me-content {
+        width: 90%;
+    }
+    .about-me-content p {
+        padding-left: 20px;
+    }
+    
+}
+
+/***************** SCREEN SIZE BREAKPOINT 860px WIDTH ***********************/
+
+@media only screen and (max-width: 860px){
+    
+    .main-header {
+        font-size: 22px;
+    }
+    .main-jobtitle {
+        font-size: 12px;
+    }
+    .border {
+        padding: 15px 10px 12px 10px;
+    }
+}
+
+/***************** SCREEN SIZE BREAKPOINT 640px WIDTH ***********************/
+
+@media only screen and (max-width: 640px){
+    
+    nav button, nav span{
+        display: none;
+    }
+    .mobile-menu-hidden{
+        position: fixed;
+        top: 8px;
+        left: 50%;
+        margin-left: -55px;
+        z-index: 4;
+        color: #f4f4f4;
+        border: solid #f4f4f4 2px;
+        border-radius: 10px;
+        padding: 3px 15px 3px 15px;
+        cursor: pointer;
+    }
+    .mobile-menu-hidden span{
+        padding-right: 10px;
+    }
+    .mobile-menu-hidden{
+        display: inline-block;
+    }
+    .mobile-menu-show{
+        display: none;
+        position: fixed;
+        text-align: center;
+        top: 8px;
+        left: 50%;
+        margin-left: -108.5px;
+        z-index: 4;
+        color: #f4f4f4;
+        background-color: rgba(17,17,17,.6);
+        border: solid #f4f4f4 2px;
+        border-radius: 10px;
+        padding: 3px 15px 3px 15px;
+        cursor: pointer;
+    }
+    .mobile-menu-show span{
+        padding-right: 10px;
+    }
+    
+/***************** SCREEN SIZE BREAKPOINT 600px WIDTH ***********************/
+
+@media only screen and (max-width: 600px){
+ /*   
+    .header-style1 {
+        display: none;
+    }
+
+    .main-header-mobile{
+        display: inline-block;
+        font-size: 22px;
+    }
+    .main-jobtitle-mobile {
+        font-size: 12px;
+    }
+    .border-mobile {
+        padding: 15px 10px 12px 10px;
+    }
+*/
 }

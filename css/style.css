@@ -389,3 +389,18 @@ a:hover {
 .form-container button:hover {
     color: orange;
 }
+
+/***************************** MEDIA QUERIES *********************************/
+
+/***************** SCREEN SIZE BREAKPOINT 1321px WIDTH ***********************/
+
+@media only screen and (max-width: 1338px){
+    #projects-section-container{
+    }
+    .skew-div-left-bottom.section-dark{
+        height: 1300px;
+    }
+    .img3 {
+        min-height: 210%;
+    }
+}

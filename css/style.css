@@ -179,7 +179,7 @@ a:hover {
 }
 
 .header-style3 {
-    top: 85%;
+    top: 90%;
 }
 
 .border {
@@ -396,13 +396,13 @@ a:hover {
 /***************** SCREEN SIZE BREAKPOINT 1321px WIDTH ***********************/
 
 @media only screen and (max-width: 1400px){
-    #projects-section-container{
-        
+    .project {
+        margin: 15px;
     }
     .skew-div-left-bottom.section-dark{
         height: 1300px;
     }
     .img3 {
-        height: 1800px;
+        height: 1900px;
     }
 }

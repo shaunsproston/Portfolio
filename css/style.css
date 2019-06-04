@@ -193,6 +193,10 @@ a:hover {
     border-radius: 20px;
 }
 
+.mobile-title{
+    display: none;
+}
+
 /****** Home ******/
 
 .main-header {
@@ -500,6 +504,9 @@ a:hover {
     nav button, nav span{
         display: none;
     }
+    .nav-container-mobile{
+        width: 100%;
+    }
     .mobile-menu-hidden{
         position: fixed;
         top: 8px;
@@ -536,24 +543,46 @@ a:hover {
     .mobile-menu-show span{
         padding-right: 10px;
     }
+}
     
-/***************** SCREEN SIZE BREAKPOINT 600px WIDTH ***********************/
+/**************** SCREEN SIZE BREAKPOINT 600px WIDTH ******************/
 
 @media only screen and (max-width: 600px){
- /*   
-    .header-style1 {
+
+    .big-screen{
         display: none;
     }
 
-    .main-header-mobile{
-        display: inline-block;
-        font-size: 22px;
+    .mobile-title{
+        display: inline;
     }
-    .main-jobtitle-mobile {
-        font-size: 12px;
+    .border2{
+        position: relative;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
-    .border-mobile {
-        padding: 15px 10px 12px 10px;
+}
+
+/**************** SCREEN SIZE BREAKPOINT 480px WIDTH ******************/
+
+@media only screen and (max-width: 480px){
+    .project{
+        width: 350px;
     }
-*/
+    .project img{
+        transform: scale(.7);
+    }
+    .project h3{
+        padding-left:70px;
+        width: 300px;
+    }
+    .header-style3{
+        top: 3120px;
+    }
+    .form-container input {
+        width:300px;
+    }
+    .form-container textarea {
+        width: 308px;
+    }
 }

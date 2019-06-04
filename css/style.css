@@ -392,9 +392,10 @@ a:hover {
 
 /***************************** MEDIA QUERIES *********************************/
 
+
 /***************** SCREEN SIZE BREAKPOINT 1321px WIDTH ***********************/
 
-@media only screen and (max-width: 1338px){
+@media only screen and (max-width: 1321px){
     #projects-section-container{
     }
     .skew-div-left-bottom.section-dark{

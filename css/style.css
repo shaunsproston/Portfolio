@@ -244,6 +244,18 @@ a:hover {
     content: url("../images/icons/email-inverted.png");
     cursor: pointer;
 }
+.inverted-icon3 {
+    filter: none;
+    opacity:0.5;
+    transform: scale(0.6, 0.6);
+    padding: 10px 0px;
+}
+.inverted-icon3:hover {
+    transform: scale(.8, .8);
+    opacity: 1;
+    content: url("../images/icons/codepen-icon2.png");
+    cursor: pointer;
+}
 
 /****** Sticky Bar ******/
 
@@ -552,7 +564,7 @@ a:hover {
     .big-screen{
         display: none;
     }
-
+    
     .mobile-title{
         display: inline;
     }

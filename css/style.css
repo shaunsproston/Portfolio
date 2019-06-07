@@ -582,6 +582,9 @@ a:hover {
 /**************** SCREEN SIZE BREAKPOINT 480px WIDTH ******************/
 
 @media only screen and (max-width: 480px){
+    .skew-div-left-bottom{
+        height: 800px;
+    }
     .img3 {
         height: 2650px;
     }

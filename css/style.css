@@ -28,6 +28,7 @@ nav span {
     font-size: 18px;
     color: #f4f4f4;
 }
+
 nav .right-span {
     margin-right: 100px;
 }
@@ -560,13 +561,16 @@ a:hover {
 /**************** SCREEN SIZE BREAKPOINT 600px WIDTH ******************/
 
 @media only screen and (max-width: 600px){
-
+    
     .big-screen{
         display: none;
     }
     
     .mobile-title{
         display: inline;
+    }
+    .skew-div-left-bottom{
+        height: 600px;
     }
     .border2{
         position: relative;
@@ -578,21 +582,26 @@ a:hover {
 /**************** SCREEN SIZE BREAKPOINT 480px WIDTH ******************/
 
 @media only screen and (max-width: 480px){
+    .img3 {
+        height: 2650px;
+    }
     .project{
-        width: 350px;
+        width: 100%;
     }
     .project img{
-        transform: scale(.7);
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
     }
     .project h3{
-        padding-left:70px;
-        width: 300px;
+        border: solid red 1px;
+        width: 100%;
     }
     .header-style3{
-        top: 3120px;
+        top: 2550px;
     }
     .form-container input {
-        width:300px;
+        width: 300px;
     }
     .form-container textarea {
         width: 308px;
